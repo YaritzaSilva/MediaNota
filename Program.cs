@@ -25,11 +25,11 @@ namespace MediaNota
             {
                 Console.WriteLine($"Sua média é {Media:N1}. Você foi aprovado, eba!");
             }
-            else if (Media>=5 && Media<=6)
+            else if (Media>=5 && Media< 6)
             {
                 Console.WriteLine($"Sua média é {Media:N1}. Você está de recuperação.");
             }
-            else if(Media>=0 && Media<=5)
+            else if(Media>=0 && Media< 5)
             {
                 Console.WriteLine($"Sua média é {Media:N1}. Você foi reprovado, que tristeza.");
             }
